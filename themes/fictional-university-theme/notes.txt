@@ -1,0 +1,1 @@
+11. black admin bar, orange, styles action and function in functions, get_header, get_footer
