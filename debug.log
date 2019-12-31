@@ -50,3 +50,56 @@ Stack trace:
 #5 /Users/a/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
 #6 /Users/a/Local Sites/fictional-university/app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
  in /Users/a/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 6
+[30-Dec-2019 05:32:09 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/a/Local Sites/fictional-university/app/public/wp-includes/wp-db.php on line 1633
+[30-Dec-2019 05:32:09 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/a/Local Sites/fictional-university/app/public/wp-includes/wp-db.php on line 1633
+[30-Dec-2019 05:32:09 UTC] PHP Stack trace:
+[30-Dec-2019 05:32:09 UTC] PHP Stack trace:
+[30-Dec-2019 05:32:09 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar:0
+[30-Dec-2019 05:32:09 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar:0
+[30-Dec-2019 05:32:09 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar:4
+[30-Dec-2019 05:32:09 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar:4
+[30-Dec-2019 05:32:09 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[30-Dec-2019 05:32:09 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[30-Dec-2019 05:32:09 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[30-Dec-2019 05:32:09 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[30-Dec-2019 05:32:09 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[30-Dec-2019 05:32:09 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[30-Dec-2019 05:32:09 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[30-Dec-2019 05:32:09 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[30-Dec-2019 05:32:09 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1130
+[30-Dec-2019 05:32:09 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1209
+[30-Dec-2019 05:32:09 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1130
+[30-Dec-2019 05:32:09 UTC] PHP   9. require_wp_db() /Users/a/Local Sites/fictional-university/app/public/wp-settings.php:116
+[30-Dec-2019 05:32:09 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1209
+[30-Dec-2019 05:32:09 UTC] PHP   9. require_wp_db() /Users/a/Local Sites/fictional-university/app/public/wp-settings.php:116
+[30-Dec-2019 05:32:09 UTC] PHP  10. wpdb->__construct() /Users/a/Local Sites/fictional-university/app/public/wp-includes/load.php:425
+[30-Dec-2019 05:32:09 UTC] PHP  11. wpdb->db_connect() /Users/a/Local Sites/fictional-university/app/public/wp-includes/wp-db.php:632
+[30-Dec-2019 05:32:09 UTC] PHP  10. wpdb->__construct() /Users/a/Local Sites/fictional-university/app/public/wp-includes/load.php:425
+[30-Dec-2019 05:32:09 UTC] PHP  12. mysqli_real_connect() /Users/a/Local Sites/fictional-university/app/public/wp-includes/wp-db.php:1633
+[30-Dec-2019 05:32:09 UTC] PHP  11. wpdb->db_connect() /Users/a/Local Sites/fictional-university/app/public/wp-includes/wp-db.php:632
+[30-Dec-2019 05:32:09 UTC] PHP  12. mysqli_real_connect() /Users/a/Local Sites/fictional-university/app/public/wp-includes/wp-db.php:1633
+[30-Dec-2019 05:32:10 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/a/Local Sites/fictional-university/app/public/wp-includes/wp-db.php on line 1633
+[30-Dec-2019 05:32:10 UTC] PHP Stack trace:
+[30-Dec-2019 05:32:10 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar:0
+[30-Dec-2019 05:32:10 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar:4
+[30-Dec-2019 05:32:10 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[30-Dec-2019 05:32:10 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[30-Dec-2019 05:32:10 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[30-Dec-2019 05:32:10 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[30-Dec-2019 05:32:10 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1130
+[30-Dec-2019 05:32:10 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/site-binaries/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1209
+[30-Dec-2019 05:32:10 UTC] PHP   9. require_wp_db() /Users/a/Local Sites/fictional-university/app/public/wp-settings.php:116
+[30-Dec-2019 05:32:10 UTC] PHP  10. wpdb->__construct() /Users/a/Local Sites/fictional-university/app/public/wp-includes/load.php:425
+[30-Dec-2019 05:32:10 UTC] PHP  11. wpdb->db_connect() /Users/a/Local Sites/fictional-university/app/public/wp-includes/wp-db.php:632
+[30-Dec-2019 05:32:10 UTC] PHP  12. mysqli_real_connect() /Users/a/Local Sites/fictional-university/app/public/wp-includes/wp-db.php:1633
+[30-Dec-2019 05:32:11 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/a/Local Sites/fictional-university/app/public/wp-includes/wp-db.php on line 1633
+[30-Dec-2019 05:32:11 UTC] PHP Stack trace:
+[30-Dec-2019 05:32:11 UTC] PHP   1. {main}() /Users/a/Local Sites/fictional-university/app/public/wp-admin/index.php:0
+[30-Dec-2019 05:32:11 UTC] PHP   2. require_once() /Users/a/Local Sites/fictional-university/app/public/wp-admin/index.php:10
+[30-Dec-2019 05:32:11 UTC] PHP   3. require_once() /Users/a/Local Sites/fictional-university/app/public/wp-admin/admin.php:34
+[30-Dec-2019 05:32:11 UTC] PHP   4. require_once() /Users/a/Local Sites/fictional-university/app/public/wp-load.php:37
+[30-Dec-2019 05:32:11 UTC] PHP   5. require_once() /Users/a/Local Sites/fictional-university/app/public/wp-config.php:79
+[30-Dec-2019 05:32:11 UTC] PHP   6. require_wp_db() /Users/a/Local Sites/fictional-university/app/public/wp-settings.php:116
+[30-Dec-2019 05:32:11 UTC] PHP   7. wpdb->__construct() /Users/a/Local Sites/fictional-university/app/public/wp-includes/load.php:425
+[30-Dec-2019 05:32:11 UTC] PHP   8. wpdb->db_connect() /Users/a/Local Sites/fictional-university/app/public/wp-includes/wp-db.php:632
+[30-Dec-2019 05:32:11 UTC] PHP   9. mysqli_real_connect() /Users/a/Local Sites/fictional-university/app/public/wp-includes/wp-db.php:1633
